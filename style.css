@@ -1,0 +1,165 @@
+
+/* 100vh background */
+/* navbar logo */
+/* First landing section */
+/* section1 */
+.title1{
+  font-family: 'Tangerine', cursive;
+  font-size: 60px;
+}
+.title2{
+  font-family: 'Kaushan Script', cursive;
+}
+.first-part{
+  height: 500px;
+}
+.first-part1{
+  margin: auto;
+  padding: 10px;
+} 
+.first-hidden{
+  display: none;
+}
+/* first part two img */
+@media(max-width:50em){
+  .first-part2 img{
+    display: none;
+  }
+  .first-hidden{
+    display: block;
+  }
+}
+/* line section */
+.vl {
+    border-left: 2px solid rgb(255, 242, 0);
+    height: 100px;
+}
+/* carousel section */
+/* menu card */
+.card-2{
+  flex-wrap: wrap;
+}
+@media(max-width:50em){
+  .card-2 .card{
+    margin-top: 10px;
+  }
+}
+/* special feature section */
+.features{
+  flex-wrap: wrap;
+}
+@media(max-width:50em){
+  .features .card{
+    display: none;
+  }
+}
+.features-hidden{
+  flex-wrap: wrap;
+  
+}
+.features-hidden .card{
+  display: none;
+}
+@media(max-width:50em){
+  .features-hidden .card{
+    display: block;
+  }
+}
+/* fixed bg section */
+.background{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('https://img.freepik.com/free-photo/wonderful-wedding-table-amazing-restaurant_8353-9875.jpg?w=1060&t=st=1689492550~exp=1689493150~hmac=45fa2a6867341216e9f64b42ac00becbc24e5bfb4ee1e873c7573fbbb405ce39');
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+/* customer love */ 
+.checked {
+  color: orange;
+}
+@media(max-width:50em){
+  .card-body .card-text{
+    display: none;
+  }
+}
+
+/* suggestion form */
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 2px solid #6d005e;
+  background-color: #ffffff;
+  height: 300px;
+  width: 500px;
+  margin: 5px auto 30px;
+  align-items: center;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif; 
+  box-shadow: 10px 10px 20px 0px
+}
+/* footer */
+.footer-responsive{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  display: none;
+}
+.footer-second-section{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.footer-second-section button{
+  margin-left: 18%;
+    width: 20rem;
+    height: 3rem;
+}
+.footer-third-section h5{
+  font-size: 14px;
+}
+.footer{
+  height: 300px;
+}
+.footer ul{
+  list-style: none;
+}
+.footer ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.icons{
+  font-size: 50px;
+}
+/* hover effect */
+.footer ul li a:hover{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+.card-2 .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+.features .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+.copy:hover{
+  color: #ffffff;
+}
+@media(max-width:50em){
+  .footer{
+    display: none;
+  }
+  .footer-responsive{
+    display: block;
+  }
+}

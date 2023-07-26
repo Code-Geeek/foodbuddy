@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- fontawsome -->
+    <script src="https://kit.fontawesome.com/bedf4862eb.js" crossorigin="anonymous"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaushan+Script&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Buddy</title>
+</head>
+<body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid">
+                <!-- logo -->
+              <a class="navbar-brand" href="#"><img class="logo" src="./Images/Logo.png" alt="" style="width: 150px;"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navbar list contents -->
+                <ul class="navbar-nav ms-auto mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold active" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">HOURS AND LOCATION </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      MENU
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">PRIVATE DINING</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">ABOUT </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#">HAPPENINGS</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!-- First landing Section -->
+        <div class="first-hidden">
+          <img src="./Images/—Pngtree—banner with abstract shapes_8292744.png" alt="" style="    width: 450px;" >
+      </div>
+        <div class="first-part d-flex justify-content-center m-2 ">
+          
+            <!-- first part with heading and paragraph -->
+            <div class="first-part1">
+                <h1 class="title1">What do you want inside your <br> <span class="title2">Burger?</span></h1>
+                <p>A luscious combination of creamy Boursin cheese and lump crab,<br> cradled by tender omelet. A scattering of crunchy Ritz...</p>
+                <a href="#"><button type="button" class="btn btn-outline-warning">View more ></button></a>
+            </div>
+            <!-- first part with image  -->
+            <div class="first-part2 ">
+                <img src="./Images/1000_F_321324549_3utrdpZOFdsyUElymaPhm5LXRyTpnteh-removebg-preview.png" alt="" style="    width: 750px;" >
+            </div>
+        </div>
+        <!-- button and vertical line section -->
+        <div class="d-flex justify-content-center">
+            <a href="#menu"><button type="button" class="btn btn-warning">MENU</button></a>
+        </div>
+        <!-- line section -->
+        <div class=" d-flex justify-content-center">
+            <h1 class="vl"></h1>
+        </div>
+        <!-- carousel section  -->
+        <h2 class="subhead text-center m-4">OUR SPACES</h2>
+        <div id="carouselExampleIndicators" class="carousel slide"data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"data-bs-interval="1000">
+              <img src="https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?w=1060&t=st=1689447859~exp=1689448459~hmac=15c7b3836a823c04edbdb103c0b1ccc269a38d2ab77cad565ae3002247a87225" class="d-block w-100" alt="..." style="height: 500px;">
+            </div>
+            <div class="carousel-item"data-bs-interval="1000">
+              <img src="https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..."style="height: 500px;">
+            </div>
+            <div class="carousel-item"data-bs-interval="1000">
+              <img src="https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..."style="height: 500px;">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- first card section1 -->
+        <!-- MENU -->
+        <div class="card-section1 bg-body-tertiary m-5">
+          <h1 class="subhead text-center m-4" id="menu">OUR MENU</h1>
+
+          <div class="card-2 d-flex justify-content-evenly container">
+
+            <div class="card"style="width: 18rem;align-items: center;
+                border-radius: 80px;
+                padding: 20px;">
+                <img
+                  src="https://grillnchill.co.in/wp-content/uploads/2021/03/6-1-scaled.jpg"
+                  class="card-img-top"
+                  alt="..."
+                  style="width: 250px; height: 250px; border-radius: 50%"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Italian BBQ</h5>
+                  </div>
+            </div>
+            <div
+              class="card"
+              style="
+                width: 18rem;
+                align-items: center;
+                border-radius: 80px;
+                padding: 20px;
+              "
+            >
+              <img
+                src="https://grillnchill.co.in/wp-content/uploads/2021/03/15.jpg"
+                class="card-img-top"
+                alt="..."
+                style="width: 250px; height: 250px; border-radius: 50%"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Special Sandwich</h5>
+              </div>
+            </div>
+            <div
+              class="card"
+              style="
+                width: 18rem;
+                align-items: center;
+                border-radius: 80px;
+                padding: 20px;
+              "
+            >
+              <img
+                src="https://grillnchill.co.in/wp-content/uploads/2021/03/7.jpg"
+                class="card-img-top"
+                alt="..."
+                style="width: 250px; height: 250px; border-radius: 50%"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mexican Shawarma</h5>
+              </div>
+            </div>
+            <div
+              class="card"
+              style="
+                width: 18rem;
+                align-items: center;
+                border-radius: 80px;
+                padding: 20px;">
+              <img
+                src="https://grillnchill.co.in/wp-content/uploads/2021/03/11.jpg"
+                alt="..."
+                style="width: 250px; height: 250px; border-radius: 50%"
+              />
+              <div class="card-body">
+                <h5 class="card-title">French Burger</h5>
+                <p>Served with Ketchup</p>
+              </div>
+            </div>
+        </div>
+        <!-- first card section2 -->
+        <div class="card-2 d-flex justify-content-evenly container mt-3" >
+          <div
+                class="card"
+                style="
+                  width: 18rem;
+                  align-items: center;
+                  border-radius: 80px;
+                  padding: 20px;">
+                <img
+                  src="https://grillnchill.co.in/wp-content/uploads/2021/03/29.jpg"
+                  alt="..."
+                  style="width: 250px; height: 250px; border-radius: 50%"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Pepper BBQ Biriyani</h5>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="
+                  width: 18rem;
+                  align-items: center;
+                  border-radius: 80px;
+                  padding: 20px;">
+                <img
+                  src="https://grillnchill.co.in/wp-content/uploads/2021/03/20.jpg"
+                  alt="..."
+                  style="width: 250px; height: 250px; border-radius: 50%"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Mint Lime</h5>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="
+                  width: 18rem;
+                  align-items: center;
+                  border-radius: 80px;
+                  padding: 20px;">
+                <img
+                  src="https://grillnchill.co.in/wp-content/uploads/2021/03/28.jpg"
+                  alt="..."
+                  style="width: 250px; height: 250px; border-radius: 50%"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Special Shake</h5>
+                </div>
+              </div>
+              <div
+                class="card"
+                style="
+                  width: 18rem;
+                  align-items: center;
+                  border-radius: 80px;
+                  padding: 20px;">
+                <img
+                  src="https://grillnchill.co.in/wp-content/uploads/2021/03/21.jpg"
+                  alt="..."
+                  style="width: 250px; height: 250px; border-radius: 50%"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Blue Mocktail</h5>
+                </div>
+              </div>
+          </div>
+          <!-- menu view more button section -->
+          <div class="d-flex justify-content-center mt-3">
+            <a href="#"><button type="button" class="btn btn-success">View more items</button></a>
+        </div>
+      </div>
+      <!-- special feature section -->
+      <h2 class="subhead text-center m-4">OUR SPECIAL FEATURES</h2>
+      <!-- hidden -->
+      <div class="features-hidden d-flex justify-content-evenly">
+        <div
+          class="card border m-1"
+          style="
+            width: 12rem;
+            align-items: center;
+            border-radius: 20px 80px 20px 80px;
+            padding: 20px;">
+          <img
+            src="https://img.freepik.com/free-vector/organic-flat-feedback-concept-illustrated_23-2148951369.jpg?w=740&t=st=1689490286~exp=1689490886~hmac=2475a00cbc06945a50724ff87e08a18b54199e05f87e570d952a6a3118971223"
+            alt="..."
+            style="width: 100%; border-radius: 50%"
+          />
+          <div class="card-body">
+            <h5 class="card-title">QUALITY</h5>
+          </div>
+          </div>
+          <div
+        class="card m-1"
+        style="
+          width: 12rem;
+          align-items: center;
+          border-radius:  80px 20px 80px 20px;
+          padding: 20px;">
+        <img
+          src="https://img.freepik.com/free-vector/healthy-food-background_23-2148123964.jpg?w=740&t=st=1689490499~exp=1689491099~hmac=edf04b4941ca376895c80b83ee225922d77c23322119aea6aaf2d638d40efec1"
+          alt="..."
+          style="width: 100%; border-radius: 50%"
+        />
+        <div class="card-body">
+          <h5 class="card-title">HEALTHY</h5>
+        </div>
+        </div>
+      
+      <div
+            class="card m-1"
+            style="
+              width: 12rem;
+              align-items: center;
+              border-radius: 20px 80px 20px 80px;
+              padding: 20px;">
+            <img
+              src="https://img.freepik.com/free-vector/fruit-salad-bowls-concept_23-2148493375.jpg?w=740&t=st=1689490847~exp=1689491447~hmac=0d9b291ce56e0e27e1db26dfe85f76f0972c9e652e1221af1415b9fc2c9bc7f1"
+              alt="..."
+              style="width: 100%; border-radius: 50%"
+            />
+            <div class="card-body">
+              <h5 class="card-title">HYGENIC</h5>
+            </div>
+          </div>
+          <div
+            class="card m-1"
+            style="
+              width: 12rem;
+              align-items: center;
+              border-radius:  80px 20px 80px 20px;
+              padding: 20px;">
+            <img
+              src="https://img.freepik.com/free-vector/delivery-service-illustrated_23-2148505081.jpg?w=740&t=st=1689490939~exp=1689491539~hmac=e7469b126cbf1a4fc07d048cf712175862f96b25e66d7b9981d3f657302a526a"
+              alt="..."
+              style="width: 100%; border-radius: 50%"
+            />
+            <div class="card-body">
+              <h5 class="card-title">DELIVERY</h5>
+            </div>
+          </div>
+        </div>
+      
+<!-- visible -->
+      <div class="features d-flex justify-content-evenly">
+        <div
+        class="card border m-1"
+        style="
+          width: 12rem;
+          height: 26rem;
+          align-items: center;
+          border-radius: 20px 80px 20px 80px;
+          padding: 20px;">
+        <img
+          src="https://img.freepik.com/free-vector/organic-flat-feedback-concept-illustrated_23-2148951369.jpg?w=740&t=st=1689490286~exp=1689490886~hmac=2475a00cbc06945a50724ff87e08a18b54199e05f87e570d952a6a3118971223"
+          alt="..."
+          style="width: 100%; border-radius: 50%"
+        />
+        <div class="card-body">
+          <h5 class="card-title">QUALITY</h5>
+          <p>We use Quality ingridents kitchen and Utensils</p>
+        </div>
+        </div>
+        <div
+        class="card m-1"
+        style="
+          width: 12rem;
+          height: 26rem;
+          align-items: center;
+          border-radius:  80px 20px 80px 20px;
+          padding: 20px;">
+        <img
+          src="https://img.freepik.com/free-vector/healthy-food-background_23-2148123964.jpg?w=740&t=st=1689490499~exp=1689491099~hmac=edf04b4941ca376895c80b83ee225922d77c23322119aea6aaf2d638d40efec1"
+          alt="..."
+          style="width: 100%; border-radius: 50%"
+        />
+        <div class="card-body">
+          <h5 class="card-title">HEALTHY</h5>
+          <p>We use Healthy Recipes</p>
+        </div>
+        </div>
+            <div
+            class="card m-1"
+            style="
+              width: 12rem;
+              height: 26rem;
+              align-items: center;
+              border-radius: 80px;
+              padding: 20px;">
+            <img
+              src="https://img.freepik.com/free-vector/fruit-salad-bowls-concept_23-2148493375.jpg?w=740&t=st=1689490847~exp=1689491447~hmac=0d9b291ce56e0e27e1db26dfe85f76f0972c9e652e1221af1415b9fc2c9bc7f1"
+              alt="..."
+              style="width: 100%; border-radius: 50%"
+            />
+            <div class="card-body" id="special" >
+              <h5 class="card-title">HYGENIC</h5>
+              <p>We give more importance for hygene</p>
+            </div>
+          </div>
+            <div
+            class="card m-1"
+            style="
+              width: 12rem;
+    height: 26rem;
+              align-items: center;
+              border-radius: 20px 80px 20px 80px;
+              padding: 20px;">
+            <img
+              src="https://img.freepik.com/premium-vector/traditional-cuisine-map-realistic-composition-with-view-india-country-border-with-dish-icons-text-vector-illustration_1284-75907.jpg?w=740"
+              alt="..."
+              style="width: 100%; border-radius: 50%"
+            />
+            <div class="card-body">
+              <h5 class="card-title">INDIAN CUSINE</h5>
+              <p>Traditional Indian food is built from the same flavor foundations.</p>
+            </div>
+          </div>
+            <div
+            class="card m-1"
+            style="
+              width: 12rem;
+              height: 26rem;
+              align-items: center;
+              border-radius:  80px 20px 80px 20px;
+              padding: 20px;">
+            <img
+              src="https://img.freepik.com/free-vector/delivery-service-illustrated_23-2148505081.jpg?w=740&t=st=1689490939~exp=1689491539~hmac=e7469b126cbf1a4fc07d048cf712175862f96b25e66d7b9981d3f657302a526a"
+              alt="..."
+              style="width: 100%; border-radius: 50%"
+            />
+            <div class="card-body">
+              <h5 class="card-title">DELIVERY</h5>
+              <p>We provide door-step delivery on all purchase</p>
+            </div>
+          </div>
+      </div>
+      <!-- fixed background section  -->
+      <h1 class="subhead text-center m-4">Our Customers Love</h1>
+      <div class="background">
+         <!-- customer love sectio -->
+         
+        <div class="body-2 bg-body-transparent" style="margin-top: 40px;">
+          <!-- cards border none-->
+          <div class="customer-div d-flex justify-content-around">
+            <div class="card bg-body-tertiary" style="width: 18rem">
+              <img
+                src="https://img.freepik.com/free-photo/young-woman-eating-pasta-cafe_1303-25262.jpg?w=1060&t=st=1689509739~exp=1689510339~hmac=8b1fb166ae9a3824c1193ec256c22afd0f49e7b909139c990ff5eae7d2b13307"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <h5 class="card-title">Annie</h5>
+                <p class="card-text">
+                  We had a good experience in the restaurant. It was excellent in terms of quality,  taste as well as service from the staffs.  Got to say delicious food is the highlight of this place.
+                  The chicken biryani served is my absolute favourite one, especially the pickle served along with it is beyond description. The restaurant was crowded when we visited on Sunday night.  But they have ample parking space available.  Overall it was a pretty great dine-in experience.
+                </p>
+              </div>
+            </div>
+            <div class="card bg-body-tertiary" style="width: 18rem">
+              <img
+                src="https://img.freepik.com/free-photo/couple-eating-salmon-dish-bowl-restaurant_23-2150461489.jpg?w=360&t=st=1689509851~exp=1689510451~hmac=eadb8c44d0f9fbf478609587737627bdb234f4814427f2f8bed43f6df7c5c7d4"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <h5 class="card-title">Christine and Stewart</h5>
+                <p class="card-text">
+                  If you want to have scrumptious food, just step in to Paragon. Always likes to have food from paragon, as it is a years of trust that they will definitely serve quality and yummy foods. My favourites are chicken fried rice, biriyani, chicken lollipop, soups and desserts etc..
+                </p>
+              </div>
+            </div>
+            <div class="card bg-body-tertiary" style="width: 18rem">
+              <img
+                src="https://img.freepik.com/free-photo/young-pretty-woman-eating-pizza-pizza-bar_1303-20334.jpg?w=1060&t=st=1689509803~exp=1689510403~hmac=4358211a75d9938aa5d8a51d2fa3f529fb28985440df2a8c38f53ee2dea2d120"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <h5 class="card-title">Camila</h5>
+                <p class="card-text">
+                  The go-to restaurant! We had breakfast here and even in the early morning, it was bustling with customers. The food was delicious, and the service was top-notch. Although there might be a waiting time during peak hours, it's definitely worth it for the exceptional experience. A must-visit for food enthusiasts in the city!
+                </p>
+              </div>
+            </div>
+          </div>
+        <h2 class="subhead text-center mt-4 text-light ">FEEL FREE TO WRITE</h2>
+        <div class="sugst d-flex justify-content-center bg-body-transparent">
+          <form>
+              <table>
+                  <tr>
+                      <td><label for="name">Enter your Name</label></td>
+                      <td></td>
+                      <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                      <td><label for="email">Enter your E-Mail</label></td>
+                      <td></td>
+                      <td><input type="email"></td>
+                  </tr>
+                  <tr>
+                      <td><label for="email">Write your Suggestions</label></td>
+                      <td></td>
+                      <td><textarea name="" id="" cols="23" rows="5"></textarea></td>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td><button type="button" class="btn btn-warning">SUBMIT</button></td>
+                  </tr>
+              </table>
+            </form>
+          </div>
+        </div>
+      </div>
+   <!-- footer section with row and column -->
+   <div class="footer-responsive bg-dark">
+    <div class="footer-buttons">
+      <button type="button" class="btn btn-warning">Log In</button>
+      <button type="button" class="btn btn-warning">Your Cart</button>
+    </div>
+    <div class="footer-second-section bg-warning">
+      <h3>JOIN AND GET <br> 15% OFF</h3>
+      <button type="button" class="btn btn-dark">Sign-up for Free</button>
+    </div>
+    <div class="footer-third-section">
+        <h5 class="text-light">© 2023 FoodBuddy | Designed by Anandu Bhanu</h5>
+    </div>
+   </div>
+   <div class="footer bg-warning">
+    <div class="row align-items-center">
+      <div class="col-4 text-center mt-5" style="text-align: justify;">
+        <h4 class="fw-bold">ABOUT US</h4>
+        <ul>
+          <li><a href="#">Our Company</a></li>
+          <li><a href="#">Our Management</a></li>
+          <li><a href="#">Connections</a></li>
+          <li><a href="#">Annual Reports</a></li>
+          <li><a href="#">Our Network</a></li>
+        </ul>
+      </div>
+      <div class="col-4 text-center">
+        <h4 class="fw-bold">SOCIAL MEDIA</h4>
+        <div class="icons d-flex justify-content-evenly mt-5">
+          <a href="#"
+            ><i class="fa-brands fa-facebook fa-lg" style="color: #ffffff"></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-instagram fa-lg"
+              style="color: #ffffff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-twitter fa-lg" style="color: #ffffff"></i
+          ></a>
+          <a href="#"
+            ><i class="fa-brands fa-whatsapp fa-lg" style="color: #ffffff"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-4 text-center">
+        <img width="250px" src="Images/Logo.png" alt="" />
+      </div>
+    </div>
+    <div class="end d-flex justify-content-center mt-4">
+      <h5 class="copy ">
+        &copy;Food Buddy 2023 | Developed by Anandu Bhanu
+      </h5>
+    </div>
+  </div>
+</body>
+</html>
